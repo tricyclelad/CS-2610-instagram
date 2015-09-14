@@ -1,0 +1,84 @@
+//we are each going to have our own CSS files apparently but split up the html
+
+body{
+	width: 100%;
+}
+h1{
+	border: 1px solid black;
+}
+
+/*NOTES ON CSS //remember tippets has some slides. look on here at the different selectors for sure
+
+cascading style sheets
+style language that tells html how to look and how to style
+can be written inline for html but dont do this. its a pain in the ass
+
+-selectors.
+what are they?
+h1{} this is an example of a selector. say we had an h1 element on the page. this selector would apply 
+everything to the h1's on the page
+div is used for only divs. it is more specific and selects only a select few
+# is used for IDs. used for something that appears once or only once on a page. example:
+<h1 ID
+meant to only be used on one page
+span allows you to select a certain area/group area of things i believe. i.e. could span between something with both classes
+or two classes
+-specificity
+class.name is much less specific than div.class-name (not sure on syntax here)
+but basically the most specific one will work over the less specific one
+dont ever use !important 
+
+----theres a good slide online that shows him programming the css stuff. shows changing font and colors etc
+windows and mac will often size fonts in a different manner that is confusing and isnt the same
+
+-positioning. this is generally the hardest part
+position. there are some differences and things to use. 
+Dispaly is typically only used to hide things
+Float and Position are the most important. what we are going to talk about today
+margin vs. padding. look on the slides there is a good picture
+-floats
+float left,right,none
+allows things to be wrapped and fit down on the page. i.e. when the element is bigger than the window 
+and when youf loat it. just gotta get in and start playing with floats
+two divs inside a div. when using floats. it pinches off the original div and there is only two divs bigger 
+rather than three
+float make things float above the block level elements
+to fix float quirks
+"clear:both" inside the block level element
+float the outer block level elementas well so that both the inner and the outer elements are floated 
+
+
+-position-
+-absolute(this might be the same as fixed) absolute position (something that doesnt scroll or move. it is fixed on the screen)
+-fixed allows you to scroll. it is relative to the viewport
+-absolute + relative. you position based off of another thing. fixed off of it. you can be in, on , our around something
+**again look on his slides at the code that he uses and mess around with it sometime soon**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
