@@ -1,1 +1,31 @@
-//Jakes css document
+@charset "UTF-8";
+
+html {height: =100%; }
+
+body {
+    background-color: lightblue;
+
+}
+
+h1 {
+    color: navy;
+    margin-left: 20px;
+    position: relative;
+}
+h2{
+  color: red;
+  position: relative;
+}
+.box{
+  float: right;
+}
+
+
+
+.lk-wrap {
+  height: auto !important;
+  height: 200%;
+  margin-bottom: -100px;
+  min-height: 100%;
+  position: relative;
+}
