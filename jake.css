@@ -1,10 +1,14 @@
 @charset "UTF-8";
 
 html {height: =100%; }
+header{
+  position: fixed;
+  margin-top: auto;
+  margin-left: 20px;
+}
 
 body {
     background-color: lightblue;
-
 }
 
 h1 {
@@ -17,9 +21,21 @@ h2{
   position: relative;
 }
 .box{
-  float: right;
+  margin: auto;
 }
-
+.box img {
+  display: block;
+  margin: 0 0 10px;
+  width: 50%;
+}
+.button {
+  position:relative;
+  padding:8px 25px;
+  left:-10px;
+  border:2px solid #eF3300;
+  background-color:#eF3300;
+  color:#fafafa;
+}
 
 
 .lk-wrap {
