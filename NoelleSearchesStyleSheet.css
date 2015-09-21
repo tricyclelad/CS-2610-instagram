@@ -106,3 +106,20 @@ form {
   margin: 0 0 10px;
   width: 100%;
 }
+
+.savedSearches{
+  position:absolute;
+  right:75px;
+  top:50px
+}
+
+.savedSearchButton:hover{
+  background-color:#fafafa;
+  color:#EF3300;
+}
+.savedHashtags{
+
+}
+.savedHashtagButtons{
+
+}
