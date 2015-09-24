@@ -20,6 +20,7 @@ form {
   color:#EF3300;
 }
 
+
 .lk-clear:after, .lk-squeeze:after {
   display: block;
   font-size: 0;
@@ -122,4 +123,27 @@ form {
 }
 .savedHashtagButtons{
 
+}
+
+/*------------------------------------*\
+            Camron's CSS
+\*------------------------------------*/
+.buttonHome {
+
+  align-items: center;
+  position:relative;
+  padding:8px 25px;
+  border:2px solid #eF3300;
+  background-color:#eF3300;
+  color:#fafafa;
+
+}
+.buttonHome:hover  {
+  background-color:#fafafa;
+  color:#EF3300;
+}
+
+.welcomeMessage{
+  text-align: center;
+  font-size: 50px;
 }
