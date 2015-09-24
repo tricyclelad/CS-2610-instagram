@@ -64,7 +64,8 @@
               ¡TYPOGRAPHY
 \*------------------------------------*/
 h1 {
-  color: blue;
+  color: blue
+  
 }
 h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
@@ -133,7 +134,7 @@ body {
                 ¡HEADER
 \*------------------------------------*/
 header {
-  border-bottom: solid 1px #CCC;
+  border-bottom: solid 5px #CCC;
   height: 100px;
   margin: 0 0 60px;
 }
