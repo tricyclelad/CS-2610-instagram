@@ -1,0 +1,19 @@
+.CBMbuttonHome {
+
+  align-items: center;
+  position:relative;
+  padding:8px 25px;
+  border:2px solid #eF3300;
+  background-color:#eF3300;
+  color:#fafafa;
+  left:40%;
+}
+.CBMbuttonHome:hover  {
+  background-color:#fafafa;
+  color:#EF3300;
+}
+
+.CBMwelcomeMessage{
+  text-align: center;
+  font-size: 50px;
+}
