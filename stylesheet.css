@@ -1,6 +1,3 @@
-/********************
-¡NAV BAR
-********************/
 .cs-squeeze {
   position: relative;
   margin: 0 auto;
@@ -9,6 +6,7 @@
   height: 100%;
   max-width: 1000px;
 }
+
 nav {}
 nav a {
   float: left;
@@ -21,17 +19,16 @@ nav a {
   background-color:#eF3300;
   color:#fafafa;
 }
+
 nav a:hover, nav a:active {
   background-color:#fafafa;
   color:#EF3300;
 }
+
 nav a:last-child {
 
 }
 
-/********************
-¡SEARCHES
-********************/
 form {
   width:1300px;
   margin:50px auto;
@@ -54,15 +51,14 @@ form {
   color:#EF3300;
 }
 
-/********************
-¡PICTURES
-********************/
+
 .lk-clear:after, .lk-squeeze:after {
   display: block;
   font-size: 0;
   content: " ";
   clear: both;
 }
+
 .lk-squeeze {
   position: relative;
   margin: 0 auto;
@@ -71,6 +67,7 @@ form {
   height: 100%;
   max-width: 1000px;
 }
+
 .noselect {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -86,12 +83,15 @@ form {
 .none {
   float: none !important;
 }
+
 .pull--right {
   float: right !important;
 }
+
 .pull--left {
   float: left !important;
 }
+
 .clear {
   display: block;
   float: none;
@@ -115,34 +115,36 @@ form {
 .box-wrap {
   margin: 50px 0;
 }
+
 .box {
   width: 32%;
   border: solid 1px #CCC;
   float: left;
   padding: 5px;
 }
+
 .box:nth-child(n) {
   margin-bottom: 2%;
   margin-right: 2%;
 }
+
 .box:nth-child(2n) {
   margin-right: 0;
   margin-bottom: 0;
 }
+
 .box img {
   display: block;
   margin: 0 0 10px;
   width: 100%;
 }
 
-/********************
-¡SAVED SEARCHES
-********************/
 .savedSearches{
   position:absolute;
   right:75px;
   top:50px
 }
+
 .savedSearchButton:hover{
   background-color:#fafafa;
   color:#EF3300;
@@ -165,7 +167,7 @@ form {
   border:2px solid #eF3300;
   background-color:#eF3300;
   color:#fafafa;
-left:40%;
+  left:40%;
 }
 .buttonHome:hover  {
   background-color:#fafafa;
