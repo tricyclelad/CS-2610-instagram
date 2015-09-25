@@ -164,9 +164,9 @@ form {
 
 }
 
-/*------------------------------------*\
+/*------------------------------------------------------------------------------*\
             Camron's CSS
-\*------------------------------------*/
+\*------------------------------------------------------------------------------*/
 .buttonHome {
 
   align-items: center;
@@ -186,3 +186,191 @@ form {
   text-align: center;
   font-size: 50px;
 }
+/*-------------------------------------------------------------------------------*\
+            KAYDEN CSS
+\*-------------------------------------------------------------------------------*/
+
+
+/*-------¡TITLE NAME------*/
+.title
+{
+    /*border: solid 1px #CCC;*/
+text-shadow:2px 2px 3px rgba(168,229,255,1);
+font-weight:normal;
+font-style:oblique;
+color:#0A41C2;
+letter-spacing:0pt;
+word-spacing:18pt;
+font-size:28px;
+text-align:left;
+font-family:arial, helvetica, sans-serif;
+line-height:0;
+}
+/*-------¡TEXT AREAS------*/
+.textFields {
+     /*border: solid 1px #CCC;*/
+  width:100%;
+  float: left;
+  text-align: center;
+}
+.textFields textarea{
+  border:2px solid #456879;
+  border-radius: 10px;
+  margin-top: 3%;
+  margin-bottom: 2%;
+  height:150px;
+  width:330px;
+  resize:none;
+}
+.textFields input{
+  margin-top: 3%;
+  border:2px solid #456879;
+  border-radius:10px;
+  height: 28px;
+  width: 300px;
+}
+/*-------¡NAVIGATION([username] box)------*/
+.navigation-wrap {
+    /*border: solid 1px #CCC;*/
+  font-size: 25px;
+    font-weight: bolder; 
+    inline-block: center;
+    margin: 0 175px 100 9;
+    padding: 10px 10px;
+
+    text-align: center;
+
+}
+/*-------¡BUTTONS >:)------*/
+.profileButton {
+  -moz-box-shadow:inset 0px 1px 0px 0px #bee2f9;
+  -webkit-box-shadow:inset 0px 1px 0px 0px #bee2f9;
+  box-shadow:inset 0px 1px 0px 0px #bee2f9;
+  background-color:transparent;
+  -moz-border-radius:6px;
+  -webkit-border-radius:6px;
+  border-radius:6px;
+  border:1px solid #3866a3;
+  display:inline-block;
+  cursor:pointer;
+  color:#14396a;
+  font-family:Arial;
+  font-size:15px;
+  font-weight:bold;
+  padding:6px 24px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #7cacde;
+  float:left;
+  margin-left: 17px;
+  transition:All 0.1s ease-in-out;
+-webkit-transition:All 0.1s ease-in-out;
+-moz-transition:All 0.1s ease-in-out;
+-o-transition:All 0.1s ease-in-out;
+transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+-webkit-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+-moz-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+-o-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+-ms-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+  
+}
+.profileButton:hover {
+    transform: rotate(0deg) scale(1.03) skew(0deg) translate(0px);
+-webkit-transform: rotate(0deg) scale(1.03) skew(0deg) translate(0px);
+-moz-transform: rotate(0deg) scale(1.03) skew(0deg) translate(0px);
+-o-transform: rotate(0deg) scale(1.03) skew(0deg) translate(0px);
+-ms-transform: rotate(0deg) scale(1.03) skew(0deg) translate(0px);
+
+  background-color:transparent;
+}
+.profileButton:active {
+  position:relative;
+  top:2px;
+}
+
+
+
+.buttonBar {
+  -moz-box-shadow:inset 0px 1px 0px 0px #cf866c;
+  -webkit-box-shadow:inset 0px 1px 0px 0px #cf866c;
+  box-shadow:inset 0px 1px 0px 0px #cf866c;
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #d0451b), color-stop(1, #ff2b00));
+  background:-moz-linear-gradient(top, #d0451b 5%, #ff2b00 100%);
+  background:-webkit-linear-gradient(top, #d0451b 5%, #ff2b00 100%);
+  background:-o-linear-gradient(top, #d0451b 5%, #ff2b00 100%);
+  background:-ms-linear-gradient(top, #d0451b 5%, #ff2b00 100%);
+  background:linear-gradient(to bottom, #d0451b 5%, #ff2b00 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#d0451b', endColorstr='#ff2b00',GradientType=0);
+  background-color:#d0451b;
+  -moz-border-radius:6px;
+  -webkit-border-radius:6px;
+  border-radius:6px;
+  border:1px solid #942911;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:23px;
+  padding:6px 67px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #854629;
+  transition:All 0.1s ease-in-out;
+-webkit-transition:All 0.1s ease-in-out;
+-moz-transition:All 0.1s ease-in-out;
+-o-transition:All 0.1s ease-in-out;
+transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+-webkit-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+-moz-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+-o-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+-ms-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+}
+
+
+.buttonBar:hover {
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ff2b00), color-stop(1, #d0451b));
+  background:-moz-linear-gradient(top, #ff2b00 5%, #d0451b 100%);
+  background:-webkit-linear-gradient(top, #ff2b00 5%, #d0451b 100%);
+  background:-o-linear-gradient(top, #ff2b00 5%, #d0451b 100%);
+  background:-ms-linear-gradient(top, #ff2b00 5%, #d0451b 100%);
+  background:linear-gradient(to bottom, #ff2b00 5%, #d0451b 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff2b00', endColorstr='#d0451b',GradientType=0);
+  background-color:#ff2b00;
+  transform: rotate(0deg) scale(1.03) skew(0deg) translate(0px);
+-webkit-transform: rotate(0deg) scale(1.03) skew(0deg) translate(0px);
+-moz-transform: rotate(0deg) scale(1.03) skew(0deg) translate(0px);
+-o-transform: rotate(0deg) scale(1.03) skew(0deg) translate(0px);
+-ms-transform: rotate(0deg) scale(1.03) skew(0deg) translate(0px);
+}
+.buttonBar:active {
+  position:relative;
+  top:1px;
+}
+/*-------¡BOXES AND WRAPPERS------*/
+.profilebox {
+  /*border: solid 1px #CCC;*/
+  width: 40%;
+  height:100%;
+  margin-left: 30%;
+}
+.profilebox img {
+ display: block;
+ margin: 0 0 10px;
+ width: 100%;
+}
+.button-wrap{
+  margin-top: 5 px;
+  /*border: solid 1px #CCC;*/
+  font-size: 30px;
+  min-width: 1000 px;
+  min-height: 25 px;
+  max-height: 30 px;
+    margin: 0 175px 100 9;
+    padding: 10px 10px;
+
+    text-align: center;
+}
+
+.profileform {
+  width:300px;
+  margin:50px auto;
+}
+
