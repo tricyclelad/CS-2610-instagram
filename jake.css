@@ -2,14 +2,14 @@
 /********************
 ¡CLASSES
 ********************/
-.cs-clear:after, .cs-squeeze:after {
+.clear:after, .squeeze:after {
   display: block;
   font-size: 0;
   content: " ";
   clear: both;
 }
 
-.cs-squeeze {
+.squeeze {
   position: relative;
   margin: 0 auto;
   padding: 0 20px;
@@ -65,7 +65,7 @@
 \*------------------------------------*/
 h1 {
   color: blue
-  
+
 }
 h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
@@ -95,7 +95,7 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-.cs-wrap {
+.wrap {
   height: auto !important;
   height: 100%;
   margin-bottom: -100px;
@@ -176,7 +176,7 @@ nav {}
 /*------------------------------------*\
                 ¡FOOTER
 \*------------------------------------*/
-.cs-push,
+.push,
 footer {
   height: 100px;
 }
