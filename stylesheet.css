@@ -149,10 +149,10 @@ form {
 
 .savedSearches{
   position:absolute;
+  margin:4% 2% 1% 0;
   right:75px;
   top:50px
 }
-
 .savedSearchButton:hover{
   background-color:#fafafa;
   color:#EF3300;
@@ -164,6 +164,21 @@ form {
 
 }
 
+h3{
+  font-family: sans-serif;
+  color: #EF3300;
+}
+.sidebar {
+  width: 231px;
+  margin: 50px 15px 50px 0;
+  border: 2px solid #EF3300;
+  border-radius: 2%;
+  padding: 20px 5px;
+}
+.sidebar ul li {
+  list-style-type: none;
+
+}
 /*------------------------------------------------------------------------------*\
             Camron's CSS
 \*------------------------------------------------------------------------------*/
