@@ -233,7 +233,7 @@ line-height:0;
 .navigation-wrap {
     /*border: solid 1px #CCC;*/
   font-size: 25px;
-    font-weight: bolder; 
+    font-weight: bolder;
     inline-block: center;
     margin: 0 175px 100 9;
     padding: 10px 10px;
@@ -271,7 +271,7 @@ transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
 -moz-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
 -o-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
 -ms-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
-  
+
 }
 .profileButton:hover {
     transform: rotate(0deg) scale(1.03) skew(0deg) translate(0px);
@@ -373,4 +373,3 @@ transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
   width:300px;
   margin:50px auto;
 }
-
