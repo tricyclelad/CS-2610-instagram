@@ -1,0 +1,55 @@
+.buttonBar {
+  -moz-box-shadow:inset 0px 1px 0px 0px #cf866c;
+  -webkit-box-shadow:inset 0px 1px 0px 0px #cf866c;
+  box-shadow:inset 0px 1px 0px 0px #cf866c;
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #d0451b), color-stop(1, #ff2b00));
+  background:-moz-linear-gradient(top, #d0451b 5%, #ff2b00 100%);
+  background:-webkit-linear-gradient(top, #d0451b 5%, #ff2b00 100%);
+  background:-o-linear-gradient(top, #d0451b 5%, #ff2b00 100%);
+  background:-ms-linear-gradient(top, #d0451b 5%, #ff2b00 100%);
+  background:linear-gradient(to bottom, #d0451b 5%, #ff2b00 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#d0451b', endColorstr='#ff2b00',GradientType=0);
+  background-color:#d0451b;
+  -moz-border-radius:6px;
+  -webkit-border-radius:6px;
+  border-radius:6px;
+  border:1px solid #942911;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:23px;
+  padding:6px 67px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #854629;
+  transition:All 0.1s ease-in-out;
+-webkit-transition:All 0.1s ease-in-out;
+-moz-transition:All 0.1s ease-in-out;
+-o-transition:All 0.1s ease-in-out;
+transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+-webkit-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+-moz-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+-o-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+-ms-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
+}
+
+
+.buttonBar:hover {
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ff2b00), color-stop(1, #d0451b));
+  background:-moz-linear-gradient(top, #ff2b00 5%, #d0451b 100%);
+  background:-webkit-linear-gradient(top, #ff2b00 5%, #d0451b 100%);
+  background:-o-linear-gradient(top, #ff2b00 5%, #d0451b 100%);
+  background:-ms-linear-gradient(top, #ff2b00 5%, #d0451b 100%);
+  background:linear-gradient(to bottom, #ff2b00 5%, #d0451b 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff2b00', endColorstr='#d0451b',GradientType=0);
+  background-color:#ff2b00;
+  transform: rotate(0deg) scale(1.03) skew(0deg) translate(0px);
+-webkit-transform: rotate(0deg) scale(1.03) skew(0deg) translate(0px);
+-moz-transform: rotate(0deg) scale(1.03) skew(0deg) translate(0px);
+-o-transform: rotate(0deg) scale(1.03) skew(0deg) translate(0px);
+-ms-transform: rotate(0deg) scale(1.03) skew(0deg) translate(0px);
+}
+.buttonBar:active {
+  position:relative;
+  top:1px;
+}
