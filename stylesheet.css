@@ -188,7 +188,7 @@ h3{
 /*------------------------------------------------------------------------------*\
             Camron's CSS
 \*------------------------------------------------------------------------------*/
-.buttonHome {
+.CBMbuttonHome {
 
   align-items: center;
   position:relative;
@@ -198,12 +198,12 @@ h3{
   color:#fafafa;
   left:40%;
 }
-.buttonHome:hover  {
+.CBMbuttonHome:hover  {
   background-color:#fafafa;
   color:#EF3300;
 }
 
-.welcomeMessage{
+.CBMwelcomeMessage{
   text-align: center;
   font-size: 50px;
 }
