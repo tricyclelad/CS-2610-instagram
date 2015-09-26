@@ -7,28 +7,6 @@
   /*max-width: 1000px;*/
 }
 
-nav {}
-nav a {
-  float: left;
-  width: 18%;
-  margin: 0 1% 2% 1%;
-  border: 1px solid black;
-  text-align: center;
-  text-decoration: none;
-  border:2px solid #eF3300;
-  background-color:#eF3300;
-  color:#fafafa;
-}
-
-nav a:hover, nav a:active {
-  background-color:#fafafa;
-  color:#EF3300;
-}
-
-nav a:last-child {
-
-}
-
 /*------------------------------------*\
             Search Box
 \*------------------------------------*/
@@ -49,12 +27,16 @@ form {
   border:2px solid #eF3300;
   background-color:#eF3300;
   color:#fafafa;
+  border-radius: 5%;
 }
 .button:hover  {
   background-color:#fafafa;
   color:#EF3300;
 }
 
+/*------------------------------------*\
+            Pictures
+\*------------------------------------*/
 
 .lk-clear:after, .lk-squeeze:after {
   display: block;
@@ -103,7 +85,7 @@ form {
 }
 
 /*------------------------------------*\
-              ¡BUTTONS
+              Buttons
 \*------------------------------------*/
 .btn {
   background: #FFF;
@@ -114,7 +96,7 @@ form {
 }
 
 /*------------------------------------*\
-                ¡BOX
+                Box
 \*------------------------------------*/
 .box-wrap {
   margin: 50px 0;
@@ -157,12 +139,10 @@ form {
   background-color:#fafafa;
   color:#EF3300;
 }
-.savedHashtags{
 
-}
-.savedHashtagButtons{
-
-}
+/*------------------------------------*\
+          Saved Search Sidebar
+\*------------------------------------*/
 
 h3{
   font-family: sans-serif;
