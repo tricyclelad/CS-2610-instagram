@@ -3,8 +3,7 @@
   margin: 0 auto;
   padding: 0 20px;
   width: 100%;
-  height: 100%;
-  /*max-width: 1000px;*/
+  height: 50px;
 }
 
 nav {}
@@ -168,6 +167,11 @@ h3{
   font-family: sans-serif;
   color: #EF3300;
 }
+h1{
+  width: 20%;
+  font-family: sans-serif;
+  color: black;
+}
 .sidebar {
   width: 231px;
   margin: 50px 15px 50px 0;
@@ -287,63 +291,6 @@ transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
   top:2px;
 }
 
-
-
-.buttonBar {
-  -moz-box-shadow:inset 0px 1px 0px 0px #cf866c;
-  -webkit-box-shadow:inset 0px 1px 0px 0px #cf866c;
-  box-shadow:inset 0px 1px 0px 0px #cf866c;
-  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #d0451b), color-stop(1, #ff2b00));
-  background:-moz-linear-gradient(top, #d0451b 5%, #ff2b00 100%);
-  background:-webkit-linear-gradient(top, #d0451b 5%, #ff2b00 100%);
-  background:-o-linear-gradient(top, #d0451b 5%, #ff2b00 100%);
-  background:-ms-linear-gradient(top, #d0451b 5%, #ff2b00 100%);
-  background:linear-gradient(to bottom, #d0451b 5%, #ff2b00 100%);
-  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#d0451b', endColorstr='#ff2b00',GradientType=0);
-  background-color:#d0451b;
-  -moz-border-radius:6px;
-  -webkit-border-radius:6px;
-  border-radius:6px;
-  border:1px solid #942911;
-  display:inline-block;
-  cursor:pointer;
-  color:#ffffff;
-  font-family:Arial;
-  font-size:23px;
-  padding:6px 67px;
-  text-decoration:none;
-  text-shadow:0px 1px 0px #854629;
-  transition:All 0.1s ease-in-out;
--webkit-transition:All 0.1s ease-in-out;
--moz-transition:All 0.1s ease-in-out;
--o-transition:All 0.1s ease-in-out;
-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
--webkit-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
--moz-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
--o-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
--ms-transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
-}
-
-
-.buttonBar:hover {
-  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ff2b00), color-stop(1, #d0451b));
-  background:-moz-linear-gradient(top, #ff2b00 5%, #d0451b 100%);
-  background:-webkit-linear-gradient(top, #ff2b00 5%, #d0451b 100%);
-  background:-o-linear-gradient(top, #ff2b00 5%, #d0451b 100%);
-  background:-ms-linear-gradient(top, #ff2b00 5%, #d0451b 100%);
-  background:linear-gradient(to bottom, #ff2b00 5%, #d0451b 100%);
-  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff2b00', endColorstr='#d0451b',GradientType=0);
-  background-color:#ff2b00;
-  transform: rotate(0deg) scale(1.03) skew(0deg) translate(0px);
--webkit-transform: rotate(0deg) scale(1.03) skew(0deg) translate(0px);
--moz-transform: rotate(0deg) scale(1.03) skew(0deg) translate(0px);
--o-transform: rotate(0deg) scale(1.03) skew(0deg) translate(0px);
--ms-transform: rotate(0deg) scale(1.03) skew(0deg) translate(0px);
-}
-.buttonBar:active {
-  position:relative;
-  top:1px;
-}
 /*-------¡BOXES AND WRAPPERS------*/
 .profilebox {
   /*border: solid 1px #CCC;*/
@@ -356,18 +303,6 @@ transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
  margin: 0 0 10px;
  width: 100%;
 }
-.button-wrap{
-  margin-top: 5 px;
-  /*border: solid 1px #CCC;*/
-  font-size: 30px;
-  min-width: 1000 px;
-  min-height: 25 px;
-  max-height: 30 px;
-    margin: 0 175px 100 9;
-    padding: 10px 10px;
-
-    text-align: center;
-}
 
 .profileform {
   width:300px;
@@ -378,197 +313,3 @@ transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
 
 
 
-
-/*this is jake's styling stuff*/
-
-.jf-clear:after, .jf-squeeze:after {
-  display: block;
-  font-size: 0;
-  content: " ";
-  clear: both;
-}
-
-.jf-squeeze {
-  position: relative;
-  margin: 0 auto;
-  padding: 0 20px;
-  width: 100%;
-  height: 100%;
-  max-width: 1000px;
-}
-
-.noselect {
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-
-/**
-* Floats
-*/
-.none {
-  float: none !important;
-}
-
-.pull--right {
-  float: right !important;
-}
-
-.pull--left {
-  float: left !important;
-}
-
-.clear {
-  display: block;
-  float: none;
-  clear: both;
-}
-
-/*------------------------------------*\
-              ¡BUTTONS
-\*------------------------------------*/
-.btn {
-  /*background: #FFF;*/
-  background: red;
-  border: solid 1px #CCC;
-  height: 25px;
-  text-align: center;
-  width: 75px;
-}
-
-/*------------------------------------*\
-              ¡TYPOGRAPHY
-\*------------------------------------*/
-h1 {
-  color: blue
-
-}
-h1, h2, h3, h4, h5, h6 {
-  font-weight: normal;
-}
-
-/*------------------------------------*\
-              ¡GENERAL
-\*------------------------------------*/
-* {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -o-box-sizing: border-box;
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-html {
-  height: 100%;
-}
-
-body {
-  background: #FFF;
-  color: #494949;
-  font-family: sans-serif;
-  height: 100%;
-  -webkit-font-smoothing: antialiased;
-}
-
-.jf-wrap {
-  height: auto !important;
-  height: 100%;
-  margin-bottom: -100px;
-  min-height: 100%;
-  position: relative;
-}
-
-/*------------------------------------*\
-                ¡BOX
-\*------------------------------------*/
-.box-wrap {
-  margin: 50px 0;
-}
-
-.box {
-  width: 32%;
-  border: solid 1px #CCC;
-  float: left;
-  padding: 5px;
-}
-  .box:nth-child(n) {
-    margin-bottom: 2%;
-    margin-right: 2%;
-  }
-  .box:nth-child(3n) {
-    margin-right: 0;
-    margin-bottom: 0;
-  }
-  .box img {
-    display: block;
-    margin: 0 0 10px;
-    width: 100%;
-  }
-
-/*------------------------------------*\
-                ¡HEADER
-\*------------------------------------*/
-header {
-  border-bottom: solid 5px #CCC;
-  height: 100px;
-  margin: 0 0 60px;
-}
-  header h1 {
-    line-height: 100px;
-  }
-
-/*------------------------------------*\
-                ¡NAV
-\*------------------------------------*/
-
-/*nav a{
-     color: black;
-     text-decoration:none;
-}
-nav a:hover {
-    font-size: 100%;
-    color: blue;
-    text-decoration: underline;
-}
-nav {}
-  nav a {
-    float: left;
-    width: 23%;
-    margin: 0 1% 0 1%;
-    border: 3px solid black;
-    background: white;
-    text-align: center;
-  }
-    nav a:hover, nav a:active {
-      /*color: blue;*/
-      /*font-size: 2;*/
-      /*color: #494949;
-    }
-    nav a:last-child {
-
-    }*/
-
-/*------------------------------------*\
-                ¡FOOTER
-\*------------------------------------*/
-.jf-push,
-footer {
-  height: 100px;
-}
-
-footer {
-  border-top: solid 1px #CCC;
-  padding: 50px 0;
-}
-
-/* this is something that tippets added in class to create a sidebar */
-.sidebar{
-  width: 236px;
-  float: left;
-  margin: 50px 15px 50px 0;
-  border:
-}
