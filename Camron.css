@@ -14,13 +14,14 @@
 }
 
 .CBMwelcomeMessage{
-  margin-top: 50px;
+  margin-top: 80px;
+  margin-bottom: 30px;
   text-align: center;
   font-size: 50px;
 }
 .buttonWrapper{
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: none;
+  margin-right: none;
 }
 
 body{
