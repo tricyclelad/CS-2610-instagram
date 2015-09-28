@@ -53,3 +53,7 @@ transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
   position:relative;
   top:1px;
 }
+
+h2{
+  float: right;
+}
