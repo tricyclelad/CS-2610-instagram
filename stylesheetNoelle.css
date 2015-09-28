@@ -1,11 +1,9 @@
-.cs-squeeze {
-  position: relative;
-  margin: 0 auto;
-  padding: 0 20px;
-  width: 100%;
-  height: 100%;
-  /*max-width: 1000px;*/
+body{
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
 }
+
 
 /*------------------------------------*\
             Search Box
