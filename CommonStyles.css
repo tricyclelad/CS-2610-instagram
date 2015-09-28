@@ -55,5 +55,7 @@ transform: rotate(0deg) scale(1) skew(0deg) translate(0px);
 }
 
 h2{
+  font-family: sans-serif;;
+  color: #708090;
   float: right;
 }
