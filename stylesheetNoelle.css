@@ -143,6 +143,7 @@ form {
 \*------------------------------------*/
 
 h3{
+  text-align: center;
   font-family: sans-serif;
   color: #EF3300;
 }
@@ -155,10 +156,11 @@ h3{
 }
 .sidebar ul li {
   list-style-type: none;
-
+  text-align: center;
 }
 .sidebar ul li a{
   color:#708090;
+
 }
 .sidebar ul li a:hover{
   color: black;
