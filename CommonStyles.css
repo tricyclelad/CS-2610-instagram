@@ -59,3 +59,12 @@ h2{
   color: #708090;
   float: right;
 }
+
+
+.wrap {
+  height: auto !important;
+  height: 100%;
+  margin-bottom: -100px;
+  min-height: 100%;
+  position: relative;
+}
