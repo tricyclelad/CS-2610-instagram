@@ -68,3 +68,12 @@ h2{
   min-height: 100%;
   position: relative;
 }
+
+.cs-squeeze {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
