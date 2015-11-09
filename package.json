@@ -1,0 +1,19 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "First git project //hey this is cool <<<<<<< HEAD //added a comment ======= // adding test comment >>>>>>> eef597fdf8f568f5a5692975e7e7df2913639de8",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://jfelzone@github.com/tricyclelad/CS-2610-instagram.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tricyclelad/CS-2610-instagram/issues"
+  },
+  "homepage": "https://github.com/tricyclelad/CS-2610-instagram#readme"
+}
