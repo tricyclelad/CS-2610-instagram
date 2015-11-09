@@ -1,0 +1,167 @@
+body{
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+
+/*------------------------------------*\
+            Search Box
+\*------------------------------------*/
+
+form {
+  width:1300px;
+  margin:50px auto;
+}
+.search {
+  padding:10px 75px 10px 10px;
+  background:rgba(50, 50, 50, 0.2);
+  border:0px solid #dbdbdb;
+}
+.button {
+  position:relative;
+  padding:8px 25px;
+  left:-10px;
+  border:2px solid #eF3300;
+  background-color:#eF3300;
+  color:#fafafa;
+  border-radius: 5%;
+}
+.button:hover  {
+  background-color:#fafafa;
+  color:#EF3300;
+}
+
+/*------------------------------------*\
+            Pictures
+\*------------------------------------*/
+
+.lk-clear:after, .lk-squeeze:after {
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+}
+
+.lk-squeeze {
+  position: relative;
+  margin: 0 auto;
+  padding: 0 20px;
+  width: 100%;
+  height: 100%;
+  max-width: 1000px;
+}
+
+.noselect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/**
+* Floats
+*/
+.none {
+  float: none !important;
+}
+
+.pull--right {
+  float: right !important;
+}
+
+.pull--left {
+  float: left !important;
+}
+
+.clear {
+  display: block;
+  float: none;
+  clear: both;
+}
+
+/*------------------------------------*\
+              Buttons
+\*------------------------------------*/
+.btn {
+  background: #FFF;
+  border: solid 1px #CCC;
+  height: 25px;
+  text-align: center;
+  width: 75px;
+}
+
+/*------------------------------------*\
+                Box
+\*------------------------------------*/
+.box-wrap {
+  margin: 50px 0;
+}
+
+.box {
+  width: 32%;
+  border: solid 1px #CCC;
+  float: left;
+  padding: 5px;
+}
+
+.box:nth-child(n) {
+  margin-bottom: 2%;
+  margin-right: 2%;
+}
+
+.box:nth-child(2n) {
+  margin-right: 0;
+  margin-bottom: 0;
+}
+
+.box img {
+  display: block;
+  margin: 0 0 10px;
+  width: 100%;
+}
+
+/*------------------------------------*\
+            Saved Searches
+\*------------------------------------*/
+
+.savedSearches{
+  position:absolute;
+  margin:4% 0 1% 0;
+  right:75px;
+  top:50px
+}
+.savedSearchButton:hover{
+  background-color:#fafafa;
+  color:#EF3300;
+}
+
+/*------------------------------------*\
+          Saved Search Sidebar
+\*------------------------------------*/
+
+h3{
+  text-align: center;
+  font-family: sans-serif;
+  color: #EF3300;
+}
+.sidebar {
+  width: 231px;
+  margin: 50px 15px 50px 0;
+  border: 2px solid #EF3300;
+  border-radius: 2%;
+  padding: 20px 5px;
+}
+.sidebar ul li {
+  list-style-type: none;
+  text-align: center;
+}
+.sidebar ul li a{
+  color:#708090;
+
+}
+.sidebar ul li a:hover{
+  color: black;
+}
