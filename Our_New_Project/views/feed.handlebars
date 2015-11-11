@@ -1,11 +1,22 @@
 <h6> Welcome to Dashboard </h6>
+<div class="content">
+
 <div class="posts">
 
+
   {{#each feed}}
+  <div class="box-wrap clear">
+    <div class="box">
   <img src="{{this.images.standard_resolution.url}}" alt="" >
+  {{this}}
+  <div class="group-btn cs-clear">
   <button class="btn accent-1 pull--left">Like!</button>
-  <button class="btn accent-1 pull--right">Dislike!</button>
-    {{this}}
+  <button class="btn accent-1 pull--left">Comment!</button>
+  </div>
+</div>
+</div>
+
   {{/each}}
 
+</div>
 </div>
