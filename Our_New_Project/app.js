@@ -24,6 +24,8 @@ app.use(session({
 	saveUninitialized: true
 }))
 
+app.use(express.static('public'));
+
 app.get('/authorize', function (req, res) {
 	var qs = {
 		client_id: cfg.client_id,
@@ -68,6 +70,20 @@ var options = {
 		var feed = JSON.parse(body)
 		res.render('feed',{
 			feed: feed.data
+		})
+	})
+})
+
+app.get('/search', function(req, res) {
+var options = {
+	url: 'https://api.instagram.com/v1/users/self/feed?access_token=' +req.session.access_token
+	// ACCESS_TOKEN
+}
+
+	request.get(options, function(error,response,body){
+		var search = JSON.parse(body)
+		res.render('search',{
+			search: search.data
 		})
 	})
 })
