@@ -68,6 +68,7 @@ var options = {
 
 	request.get(options, function(error,response,body){
 		var feed = JSON.parse(body)
+		console.log(body);
 		res.render('feed',{
 			feed: feed.data
 		})
