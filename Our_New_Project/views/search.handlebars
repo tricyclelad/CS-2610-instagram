@@ -1,13 +1,55 @@
-<h6> Welcome to Search Page! </h6>
-
+<!-- <h2> Welcome to Search Page! </h2> -->
+<form class ="search" action="/search" method="post">
+  <input type="text" name="query" value="">
+  <input type="submit" name ="submit" value="SEARCH">
+</form>
 
 <div class="posts">
 
-  {{#each feed}}
+{{#each posts}}
+  <img src="{{this.images.standard_resolution.url}}" alt="" >
+{{/each}}
+</div>
+
+
+
+
+
+
+
+<form>
+    <input class="search" type="text" placeholder="Search hashtags..."#FF3300/>
+    <a href="NoelleSearchResults.html"><input class="button" type="button" value="Search"</a>
+</form>
+
+<div class="savedSearches">
+  <div class="sidebar">
+    <ul>
+      <h3>Saved Searches</h3>
+      <li><a href="NoelleSearchResults.html">#SavedHashtag</a></li>
+      <li><a href="NoelleSearchResults.html">#SavedHashtag</a></li>
+      <li><a href="NoelleSearchResults.html">#SavedHashtag</a></li>
+      <li><a href="NoelleSearchResults.html">#SavedHashtag</a></li>
+      <li><a href="NoelleSearchResults.html">#SavedHashtag</a></li>
+      <li><a href="NoelleSearchResults.html">#SavedHashtag</a></li>
+      <li><a href="NoelleSearchResults.html">#SavedHashtag</a></li>
+      <li><a href="NoelleSearchResults.html">#SavedHashtag</a></li>
+    </ul>
+    <div class="savedHashtagButtons">
+
+    </div>
+  </div>
+</div>
+</div>
+
+
+<!-- <div class="posts">
+
+  {{#each search}}
   <img src="{{this.images.standard_resolution.url}}" alt="" >
   <button class="btn accent-1 pull--left">Like!</button>
   <button class="btn accent-1 pull--left">Comment!</button>
     {{this}}
   {{/each}}
 
-</div>
+</div> -->
