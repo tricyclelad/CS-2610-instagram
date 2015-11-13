@@ -111,20 +111,20 @@ app.post('/search', function(req, res, next){
 	}
 
 	request.get(options, function (error, response, body) {
-try{
-	var search = JSON.parse(body)
-	if(feed.meta.code > 200){
-		return next(search.meta.error_message);
-	}
-} catch (err){
-	return next(err)
-}
+		try{
+			var search = JSON.parse(body)
+			if(search.meta.code > 200){
+				return next(search.meta.error_message);
+			}
+		} catch (err){
+			return next(err)
+		}
 		console.log(search)
-			res.render('search',{
-				search: search.data
-			})
+		res.render('search',{
+			posts: search.data
+		})
 	})
-	res.send('good post')
+	// res.send('good post')
 })
 
 
