@@ -29,6 +29,10 @@ app.get('/', function(req, res){
 	res.render('index')
 })
 
+app.get('/profile', function(req, res){
+	res.render('profile')
+})
+
 app.use(bodyParser.urlencoded({extended: false}))
 
 app.use(express.static('public'));
