@@ -110,9 +110,10 @@ form {
 .searchBox:nth-child(n) {
   margin-bottom: 2%;
   margin-right: 2%;
+  float: left;
 }
 
-.searchBox:nth-child(2n) {
+.searchBox:nth-child(3n) {
   margin-right: 0;
   margin-bottom: 0;
 }
@@ -164,4 +165,9 @@ h3{
 }
 .sidebar ul li a:hover{
   color: black;
+}
+
+
+.posts{
+  margin-right: 32%;
 }
