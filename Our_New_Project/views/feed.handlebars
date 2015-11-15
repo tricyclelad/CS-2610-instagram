@@ -3,18 +3,17 @@
 
 <div class="posts">
 
-
   {{#each feed}}
-    <div class="box">
-  <img src="{{this.images.standard_resolution.url}}" alt="" >
-  {{this}}
-  <div class="group-btn cs-clear">
-  <button class="btn accent-1 pull--left">Like!</button>
-  <button class="btn accent-1 pull--left">Comment!</button>
+  <div class="box">
+    <img src="{{this.images.standard_resolution.url}}" alt="" >
+    {{this}}
+    <div class="group-btn cs-clear">
+      <button class="btn accent-1 pull--left">{{this.likes.count}} Likes</button>
+      <button class="btn accent-1 pull--left">{{this.comments.count}} Comments</button>
+    </div>
   </div>
-</div>
-
   {{/each}}
+
 
 </div>
 </div>
