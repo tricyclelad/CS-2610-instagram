@@ -25,6 +25,10 @@ app.use(session({
 	saveUninitialized: true
 }))
 
+app.get('/', function(req, res){
+	res.render('index')
+})
+
 app.use(bodyParser.urlencoded({extended: false}))
 
 app.use(express.static('public'));
