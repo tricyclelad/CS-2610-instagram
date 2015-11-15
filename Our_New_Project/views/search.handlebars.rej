@@ -1,0 +1,12 @@
+diff a/Our_New_Project/views/search.handlebars b/Our_New_Project/views/search.handlebars	(rejected hunks)
+@@ -1,7 +1,7 @@
+ <!-- <h2> Welcome to Search Page! </h2> -->
+-<form class ="search" action="/search" method="post">
+-  <input type="text" name="query" value="">
+-  <input type="submit" name ="submit" value="SEARCH">
++<form action="/search" method="post">
++  <input class="search" type="text" name="query" value="" placeholder="Search hashtags..."#FF3300>
++  <input class="button" type="submit" name ="submit" value="SEARCH">
+ </form>
+ 
+ <div class="posts">
