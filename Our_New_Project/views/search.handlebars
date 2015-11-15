@@ -1,7 +1,7 @@
 <!-- <h2> Welcome to Search Page! </h2> -->
-<form class ="search" action="/search" method="post">
-  <input type="text" name="query" value="">
-  <input type="submit" name ="submit" value="SEARCH">
+<form action="/search" method="post">
+  <input class="search" type="text" name="query" value="" placeholder="Search hashtags..."#FF3300>
+  <input class="button" type="submit" name ="submit" value="SEARCH">
 </form>
 
 <div class="posts">
@@ -17,11 +17,6 @@
 {{/each}}
 
 </div>
-
-<form>
-    <input class="search" type="text" placeholder="Search hashtags..."#FF3300/>
-    <a href="NoelleSearchResults.html"><input class="button" type="button" value="Search"</a>
-</form>
 
 <div class="savedSearches">
   <div class="sidebar">
