@@ -93,25 +93,25 @@ body {
 /*------------------------------------*\
                 ¡BOX
 \*------------------------------------*/
-.box-wrap {
+.feedBox-wrap {
   margin: 50px 0;
 }
 
-.box {
+.feedBox {
   width: 32%;
   border: solid 1px #CCC;
   float: left;
   padding: 5px;
 }
-  .box:nth-child(n) {
+  .feedBox:nth-child(n) {
     margin-bottom: 2%;
     margin-right: 2%;
   }
-  .box:nth-child(3n) {
+  .feedBox:nth-child(3n) {
     margin-right: 0;
     margin-bottom: 0;
   }
-  .box img {
+  .feedBox img {
     display: block;
     margin: 0 0 10px;
     width: 100%;
