@@ -7,8 +7,15 @@
 <div class="posts">
 
 {{#each posts}}
+<div class="searchBox">
   <img src="{{this.images.standard_resolution.url}}" alt="" >
+  <div class="group-btn cs-clear">
+    <button class="btn accent-1 pull--left">{{this.likes.count}} Likes</button>
+    <button class="btn accent-1 pull--left">{{this.comments.count}} Comments</button>
+  </div>
+  </div>
 {{/each}}
+
 </div>
 
 <form>

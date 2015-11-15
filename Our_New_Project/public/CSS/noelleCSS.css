@@ -96,28 +96,28 @@ form {
 /*------------------------------------*\
                 Box
 \*------------------------------------*/
-.box-wrap {
+.searchBox-wrap {
   margin: 50px 0;
 }
 
-.box {
+.searchBox {
   width: 32%;
   border: solid 1px #CCC;
   float: left;
   padding: 5px;
 }
 
-.box:nth-child(n) {
+.searchBox:nth-child(n) {
   margin-bottom: 2%;
   margin-right: 2%;
 }
 
-.box:nth-child(2n) {
+.searchBox:nth-child(2n) {
   margin-right: 0;
   margin-bottom: 0;
 }
 
-.box img {
+.searchBox img {
   display: block;
   margin: 0 0 10px;
   width: 100%;
